@@ -69,9 +69,9 @@ MUP_NAMESPACE_START
     }
 
     // trigonometric functions
-    MUP_UNARY_FUNC(FunTan,   "sin",   std::sin,   "sine function")
+    MUP_UNARY_FUNC(FunSin,   "sin",   std::sin,   "sine function")
     MUP_UNARY_FUNC(FunCos,   "cos",   std::cos,   "cosine function")
-    MUP_UNARY_FUNC(FunSin,   "tan",   std::tan,   "tangens function")
+    MUP_UNARY_FUNC(FunTan,   "tan",   std::tan,   "tangens function")
     // arcus functions
     MUP_UNARY_FUNC(FunASin,  "asin",  std::asin,  "arcus sine")
     MUP_UNARY_FUNC(FunACos,  "acos",  std::acos,  "arcus cosine")
